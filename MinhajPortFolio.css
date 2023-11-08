@@ -59,8 +59,8 @@ h4:hover{
     
 }
 .photo{
-    width: 40%;
-    height: 75%;
+    width: 500px;
+ 
     position: absolute;
     bottom: 0;
     right: 100px;
