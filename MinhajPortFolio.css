@@ -60,7 +60,7 @@ h4:hover{
 }
 .photo{
     width: 500px;
- 
+    
     position: absolute;
     bottom: 0;
     right: 100px;
@@ -68,6 +68,7 @@ h4:hover{
     
 }
 .photo img{
+    margin-left: 20%;
     height: 100%;
     position: absolute;
     left: 10%;
