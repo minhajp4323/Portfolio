@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhaj PortFolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="MinhajPortFolio.css">
+    <link rel="icon" href="/WhatsApp Image 2023-11-06 at 13.00.47_77055768.jpg">
+    <script src="MinhajPortFolio.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("TFvavmQde0qTXOnvm");
+   })();
+</script>
+</head>
+<body>
+    <div class="main-xl">
+        <div class="port">
+            <nav class="navbar navbar-expand-md  text-uppercase">
+                <div class="container">
+                  <a class="navbar-brand" href="#">MINHAJ</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto" id="navmain">
+                      <a class="nav-link active px-lg-4 rounded" href="#main">Home</a>
+                      <a class="nav-link px-lg-4 rounded" href="#about">About</a>
+                      <a class="nav-link px-lg-4 rounded" href="#skills">Skill</a>
+                      <a class="nav-link px-lg-4 rounded" href="#projects">Project</a>
+                      <a class="nav-link px-lg-4 rounded" href="#contact">Contact</a>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+
+        </div>
+        <div class="data">
+        <h3>Hello It's Me</h3>
+        <h1>Minhaj</h1>
+        <h3>And iam a <b>Developer</b></h3>
+        <p>This is my official Portfolio</p>
+        <button class="btn1">Download my CV</button>
+        <h4>Email</h4>
+        
+    </div>
+    <div class="photo">
+        <img src="/WhatsApp Image 2023-11-06 at 13.00.47_77055768.jpg" class="me">
+    </div>
+        
+        
+        
+    </div>
+    
+    <div class="main2" id="about">
+        <div class="col-lg">
+            <h1>About <span>Me</span></h1>
+            <h3>Full Stack Developer</h3>
+            <p>an individual who operates on the frint end and back endof a web-bases application is known as a full satck developer. While the back end is in charge of 
+            the site's architecture and logic in the background, the front end is in the charge of the website's aesthetic appearance and feel.</p>
+
+        </div>
+        <div class="col-lg" id="skills">
+            <h1>My <span>Skills</span></h1>
+            <h3>Full Stack Developer</h3>
+            <!-- skill section -->
+
+        <section id="skill" class="skill">
+            <div class="container py-5">
+                <div class="row pb-5">
+
+                    <div class="progress">
+                        <div class="pro-value1">
+                            <p>HTML / CSS<span class="text-white float-right">95%</span></p>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <div class="pro-value2">
+                            <p>JAVASCRIPT<span class="text-white float-right ">75%</span></p><br><br>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <div class="pro-value3">
+                            <p>BOOTSTRAP<span class="text-white float-right ">50%</span></p>
+                        </div>
+                    </div>
+
+                        <input type="button" class="btn" value="Contact Me">
+                </div>
+            </div>
+            
+        </section>
+            
+        </div>
+        <div class="col-lg" id="project">
+            <h1>My <span>Projects</span></h1>
+            <h3>Front-end</h3>
+            
+            <div class="projects" id="projects">
+                <div class=" project1">
+                    <img class="ldnpic" src="/Screenshot (22).png" alt="">
+                    <div class="layer">
+                        <h5>Linkedin Website</h5>
+                        <a href="/day 5 task/linkedin.html"><i></i></a>
+                    </div>
+                </div>
+                <div class="project2">
+                    <img class="w3pic" src="/Screenshot (24).png" alt="">
+                    <div>
+                        <h5>W3 School Website</h5>
+                        <a href="/day 4 task/Day 4 Task.html"><i></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="gmail">
+            <div class="row1">
+                <div class="contact" id="contact">
+                    <h1>Contact </h1>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" 
+                        class="form-control" 
+                        id="name" 
+                        placeholder="Enter your Name"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" 
+                        class="form-control" 
+                        id="email" 
+                        placeholder="Enter your email"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button class="btn2" onclick="sendMail()">Submit</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="social" id="social">
+            <div></div>
+            <div>Connect me on:</div><br>
+            <h6>Phone: <span>+919846564323</span></h6>
+            <a href="mailto:minhajp4323@gmail.com"><img class="socialimg" src="/SOCIAL ICONS/Gmail_Logo_32px.png" alt=""></a>
+            <a href="https://instagram.com/minhaj_bin_koya?igshid=MXJtNmViZml2eDBxMw=="><img class="socialimg" src="/SOCIAL ICONS/insta large.png" alt=""></a>
+            <a href="https://www.facebook.com/minhaj.perinkadakkat?mibextid=LQQJ4d"><img class="socialimg" src="/bootstrap/SOCIAL ICONS/facebook large.png" alt=""></a>
+            <a href="https://wa.link/tlgxvm"><img class="socialimg" src="/SOCIAL ICONS/whatsapp.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/minhaj-p-752b41299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img class="socialimg" src="/SOCIAL ICONS/linkedin icon.png" alt=""></a>
+            <a href="https://github.com/Minhajbinkoya"><img class="socialimg" src="/SOCIAL ICONS/github-logo.png" alt=""></a>
+            
+
+        </div>
+        
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+</body>
+</html>

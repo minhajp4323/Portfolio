@@ -1,0 +1,17 @@
+
+.container-fluid{
+    background-color: rgb(201, 159, 241);
+    border-color: black;
+    heigh
+}
+.row{
+    border: 2px solid rgb(248, 189, 189);
+}
+.col,col.1,col.2{
+    border: 1px solid rgb(84, 59, 59);
+}
+.box1{
+    width: 400px;
+    background-color: antiquewhite;
+    margin: 10px;
+}
