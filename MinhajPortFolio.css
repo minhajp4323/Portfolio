@@ -3,6 +3,7 @@
 }
 .navbar-toggler{
     background-color: rgb(125, 125, 125);
+    position: sticky;
 }
 .navbar-brand{
     color: black;
@@ -20,6 +21,7 @@
     color: rgb(141, 141, 141);
     font-weight: 600;
 }
+
 .data{
     margin-left: 8%;
     margin-top: 15%;
