@@ -94,7 +94,7 @@ h4:hover{
     margin-top: 20px; /* Add some space between the text and the image */
     border-radius: 100%;
     transition: 0.5s ease;
-    cursor: pointer;
+    
 }
 .photo:hover{
     transform: scale(0.9);
